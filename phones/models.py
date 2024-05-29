@@ -1,5 +1,3 @@
-# models.py
-
 from django.db import models
 from django.utils.text import slugify
 
@@ -19,3 +17,4 @@ class Phone(models.Model):
 
     def __str__(self):
         return self.name
+
